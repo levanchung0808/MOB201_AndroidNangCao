@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#06C251"
+        android:gravity="center"
+        android:text="TIN TỨC MỚI NHẤT"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/svRSSFeed"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape_bg_search"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:queryHint="Tìm kiếm..."
+        app:voiceIcon="@drawable/ic_back"
+        app:iconifiedByDefault="false"
+        app:closeIcon="@null"
+        app:queryBackground="@null"
+        app:submitBackground="@null" />
+
+    <ImageView
+        android:id="@+id/ivMic"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/ic_voice"
+        android:layout_width="32dp"
+        android:layout_height="32dp"/>
+
+    <ListView
+        android:id="@+id/listViewNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/svRSSFeed"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

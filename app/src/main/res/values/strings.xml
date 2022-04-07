@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MOB201_LeVanChung_PS19319_ASM</string>
+    <string name="title_activity_maps1">MapsActivity1</string>
+    <string name="facebook_app_id">335151391865029</string> <string name="fb_login_protocol_scheme">fb335151391865029</string>
+
+<!--    Custom Toast-->
+    <string name="error_message">Đăng nhập thất bại.</string>
+    <string name="success_message">Đăng nhập thành công!</string>
+    <string name="info_message">Xin chào! </string>
+    <string name="warning_message">Beware of the dog.</string>
+    <string name="normal_message_without_icon">Normal toast w/o icon</string>
+    <string name="normal_message_with_icon">Normal toast w/ icon</string>
+    <string name="custom_message">Xin chào! </string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_Course" android:title="Course" android:icon="@drawable/ic_course" />
+    <item android:id="@+id/menu_Maps" android:title="Maps" android:icon="@drawable/ic_maps"/>
+    <item android:id="@+id/menu_News" android:title="News" android:icon="@drawable/ic_news"/>
+    <item android:id="@+id/menu_Social" android:title="Social" android:icon="@drawable/ic_social"/>
+</menu>
